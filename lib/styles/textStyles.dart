@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'font_sizes.dart';
+import 'fontSizes.dart';
 
 TextStyle kDefaultTitleTextStyle (BuildContext context, Color color) =>
     TextStyle(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:uncle_pops/styles/text_styles.dart';
-import 'package:uncle_pops/utils/colors.dart';
+import 'package:uncle_pops/styles/textStyles.dart';
+import 'package:uncle_pops/styles/colors.dart';
+import 'package:uncle_pops/widgets/shops_slider.dart';
 
 class MainFoodPage extends StatefulWidget {
   const MainFoodPage({Key? key}) : super(key: key);
@@ -13,6 +14,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFEEEEEE),
       body: SafeArea(
         child: Column(
           children: [
@@ -49,6 +51,9 @@ class _MainFoodPageState extends State<MainFoodPage> {
                 )
               ],
             ),
+            const SizedBox(
+              height: 300,
+                child: ShopSlider()),
           ],
         )
       ),
