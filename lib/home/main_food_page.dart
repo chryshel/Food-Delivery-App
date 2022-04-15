@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uncle_pops/styles/textStyles.dart';
+import 'package:uncle_pops/styles/text_styles.dart';
 import 'package:uncle_pops/styles/colors.dart';
 import 'package:uncle_pops/widgets/shops_slider.dart';
 
